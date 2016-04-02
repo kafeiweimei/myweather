@@ -10,7 +10,7 @@ public class Province
 	{
 		return id;
 	}
-	public void setId()
+	public void setId(int id)
 	{
 		this.id=id;
 	}
@@ -19,7 +19,7 @@ public class Province
 	{
 		return provinceName;
 	}
-	public void setProvinceNmae()
+	public void setProvinceNmae(String provinceName)
 	{
 		this.provinceName=provinceName;
 	}
@@ -28,7 +28,7 @@ public class Province
 	{
 		return provinceCode;
 	}
-	public void setProvinceCode()
+	public void setProvinceCode(String provinceCode)
 	{
 		this.provinceCode=provinceCode;
 	}

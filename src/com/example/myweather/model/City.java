@@ -11,7 +11,7 @@ public class City
 	{
 		return id;
 	}
-	public void setId()
+	public void setId(int id)
 	{
 		this.id=id;
 	}
@@ -21,7 +21,7 @@ public class City
 	{
 		return cityName;
 	}
-	public void setCityName()
+	public void setCityName(String cityName)
 	{
 		this.cityName=cityName;
 	}
@@ -30,7 +30,7 @@ public class City
 	{
 		return cityCode;
 	}
-	public void setCityCode()
+	public void setCityCode(String cityCode)
 	{
 		this.cityCode=cityCode;
 	}
@@ -39,9 +39,10 @@ public class City
 	{
 		return provinceId;
 	}
-	public void setProvinceId()
+	public void setProvinceId(int provinceId)
 	{
 		this.provinceId=provinceId;
 	}
+	
 
 }
